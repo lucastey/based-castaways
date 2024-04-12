@@ -147,8 +147,8 @@ app.frame('/third', (c) => {
     intents: [
       <Button >Finish it for good luck</Button>,
       <Button >Faster finish it</Button>,
-      <Button >Burn Midnight Oil</Button>,
-      <Button >Chill </Button>,
+      <Button >Serious meh</Button>,
+      <Button >New generation already </Button>,
     
     ],
   });
@@ -181,7 +181,10 @@ app.frame('/fourth', (c) => {
       </div>
     ),
     intents: [
-      <Button >Good</Button>,
+      <Button >Flex favourite food</Button>,
+      <Button >Plan in advance</Button>,
+      <Button >Go first think later</Button>,
+      <Button >Chill </Button>,
     
     ],
   });
