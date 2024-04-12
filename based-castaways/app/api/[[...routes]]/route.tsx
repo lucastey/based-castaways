@@ -80,6 +80,7 @@ app.frame('/first', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/second',
     image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmNvJcKRqVM5sn6gTS2N89j5gNDhhAh4zGswvrdD8nQRYL',
@@ -100,6 +101,7 @@ app.frame('/second', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/third',
     image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbCi8z813rU2huvqr1bqcZy78JKFGqMcx7AEnqAYzi3fn',
@@ -122,6 +124,7 @@ app.frame('/third', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/fourth',
     image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYWwCUgVebbBcHWq2j8FpZUv8ymBkpkxTP8G5wLTiMdWT',
@@ -144,6 +147,7 @@ app.frame('/fourth', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/fifth',
     image:'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/Qma2NDsrCurRrC7PqEw9xzdeCBRfxUgsY7ZZujKWhyXH5W',
@@ -165,6 +169,7 @@ app.frame('/fifth', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   const nextAction = determinePersonality(state.points);
   return c.res({
     image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPFnJrn3UonPC96w15tmxmLBXALdb418ggBwrnaD1VftC',
