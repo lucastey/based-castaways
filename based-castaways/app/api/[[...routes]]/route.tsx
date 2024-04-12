@@ -145,9 +145,9 @@ app.frame('/fifth', (c) => {
 });
 
 function determinePersonality(points) {
-  if (points <= 8) return '/personality1';
-  if (points <= 13) return '/personality2';
-  if (points <= 17) return '/personality3';
+  if (points <= 4) return '/personality1';
+  if (points <= 8) return '/personality2';
+  if (points <= 14) return '/personality3';
   return '/personality4';
 }
 
