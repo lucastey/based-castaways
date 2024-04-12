@@ -25,26 +25,7 @@ app.frame('/', (c) => {
   // const quiz = inputText || buttonValue
   return c.res({
     action:'/first',
-    image: (
-      <div
-        style={{
-          display: 'flex', // Ensuring proper handling of child components
-          flexDirection: 'column', // Organizes children vertically
-          color: 'white',
-          fontSize: 60,
-          fontStyle: 'normal',
-          letterSpacing: '-0.025em',
-          lineHeight: 1.4,
-          marginTop: 30,
-          padding: '0 120px',
-          whiteSpace: 'pre-wrap',
-        }}
-      >
-
-        hello
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU5HmEGDNP7J4QK7K7fUfJwZccRCwsdZkCjVfNb36H9NN',
     intents: [
       <Button >Start Now!</Button>,
     
@@ -63,26 +44,7 @@ app.frame('/first', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/second',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      first
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmWm4GCKv1t4aQhjV9U4mYxL9uXiMP6o14JWXxRNGpw5x1',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -103,26 +65,7 @@ app.frame('/second', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/third',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      2nd
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmUmFzt1nXVrNyEXWJNCZeMrxAQyg8CqBm3TNufNVbVG1S',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -145,26 +88,7 @@ app.frame('/third', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fourth',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      3rd
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbpGCvG1q9Hdj3wahNSqSN55At9C59rmeMSahm5bkWNj2',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -187,26 +111,7 @@ app.frame('/fourth', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fifth',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      fourth
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmZzLd59XiZEydxikLUENkpZ7UcjRzzJL1d7xMTwfj9DW1',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -229,26 +134,7 @@ app.frame('/fifth', (c) => {
   const nextAction = determinePersonality(state.points);
   return c.res({
     action: nextAction,
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      fifth
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmcacreJEUaoJ6BYxoN9iU1zVNFb2KaCcKQV9Gr3VK8QFr',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -267,9 +153,9 @@ function determinePersonality(points) {
 
 app.frame('/personality1', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmeFj4xhH2Rb39jyFxRd9qgbC35bepjMYsJyPeSZYnrdUP'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmeK7kjGoJJnAtCpwGNwX8dfsQNQ9hyDdo783B9r6XFAtT'),
     intents: [
-      <Button.Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-2'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,    
     ],
   });
@@ -278,9 +164,9 @@ app.frame('/personality1', (c) => {
 
 app.frame('/personality2', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYE8oH8DssHXoeTnhV1L2jfuAgSW33fLXG293Ws9NqKGg'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbaKd6ERmgh4hQjWRKGoA81WVTGQXowBECLhAXWdSqTBu'),
     intents: [
-      <Button.Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-3'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
@@ -288,9 +174,9 @@ app.frame('/personality2', (c) => {
 
 app.frame('/personality3', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmcTv7LwT2AvWqT1vXrUp8QrLNUUyH6ssidUwNNYqJZono'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPMjEMYKvPts34FVW7u3spA7m6qfeVP5BbdByLVSLR1c6'),
     intents: [
-      <Button.Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-1'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
@@ -298,9 +184,9 @@ app.frame('/personality3', (c) => {
 
 app.frame('/personality4', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmVxruik75m7uxRsKpZJcH1L2htxAYw67RM1Afy8GcqhPL'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU7mQUt8FSFRNXWSfgW6nGNQQwiuEjd6MCDBAXz9vbbbQ'),
     intents: [
-      <Button.Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-4'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
