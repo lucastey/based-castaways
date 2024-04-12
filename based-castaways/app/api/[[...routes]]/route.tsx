@@ -192,90 +192,26 @@ function determinePersonality(points) {
 
 app.frame('/personality1', (c) => {
   return c.res({
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-      person1
-      </div>)
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmeFj4xhH2Rb39jyFxRd9qgbC35bepjMYsJyPeSZYnrdUP'
   });
 });
 
 
 app.frame('/personality2', (c) => {
   return c.res({
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-      person2
-      </div>)
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYE8oH8DssHXoeTnhV1L2jfuAgSW33fLXG293Ws9NqKGg'
   });
 });
 
 app.frame('/personality3', (c) => {
   return c.res({
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-      person3
-      </div>)
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmcTv7LwT2AvWqT1vXrUp8QrLNUUyH6ssidUwNNYqJZono'
   });
 });
 
 app.frame('/personality4', (c) => {
   return c.res({
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-      person4
-      </div>)
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmVxruik75m7uxRsKpZJcH1L2htxAYw67RM1Afy8GcqhPL'
   });
 });
 
