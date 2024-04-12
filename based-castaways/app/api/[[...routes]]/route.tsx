@@ -172,6 +172,7 @@ app.frame('/fifth', (c) => {
   console.log("Current Points:", state.points);
   const nextAction = determinePersonality(state.points);
   return c.res({
+    action: nextAction,
     image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPFnJrn3UonPC96w15tmxmLBXALdb418ggBwrnaD1VftC',
     intents: [
       <Button value="1">1</Button>,
