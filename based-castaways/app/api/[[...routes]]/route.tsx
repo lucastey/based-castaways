@@ -74,10 +74,10 @@ app.frame('/first', (c) => {
       </div>
     ),
     intents: [
-      <Button >Act Steady</Button>,
-      <Button >Mug like siao</Button>,
-      <Button >Burn Midnight Oil</Button>,
-      <Button >Chill </Button>,
+      <Button >1</Button>,
+      <Button >2</Button>,
+      <Button >3</Button>,
+      <Button >4</Button>,
     
     ],
   });
@@ -109,10 +109,10 @@ app.frame('/second', (c) => {
       </div>
     ),
     intents: [
-      <Button >Take picture</Button>,
-      <Button >Queue before get longer</Button>,
-      <Button >Why so many people</Button>,
-      <Button >Go next time</Button>,
+      <Button >1</Button>,
+      <Button >2</Button>,
+      <Button >3</Button>,
+      <Button >4</Button>,
     
     ],
   });
@@ -145,10 +145,10 @@ app.frame('/third', (c) => {
       </div>
     ),
     intents: [
-      <Button >Finish it for good luck</Button>,
-      <Button >Faster finish it</Button>,
-      <Button >Serious meh</Button>,
-      <Button >New generation already </Button>,
+      <Button >1</Button>,
+      <Button >2</Button>,
+      <Button >3</Button>,
+      <Button >4</Button>,
     
     ],
   });
@@ -181,10 +181,10 @@ app.frame('/fourth', (c) => {
       </div>
     ),
     intents: [
-      <Button >Flex favourite food</Button>,
-      <Button >Plan in advance</Button>,
-      <Button >Go first think later</Button>,
-      <Button >Chill </Button>,
+      <Button >1</Button>,
+      <Button >2</Button>,
+      <Button >3</Button>,
+      <Button >4</Button>,
     
     ],
   });
@@ -217,7 +217,10 @@ app.frame('/fifth', (c) => {
       </div>
     ),
     intents: [
-      <Button >Good</Button>,
+      <Button >1</Button>,
+      <Button >2</Button>,
+      <Button >3</Button>,
+      <Button >4</Button>,
     
     ],
   });
