@@ -145,9 +145,9 @@ app.frame('/fifth', (c) => {
 });
 
 function determinePersonality(points) {
-  if (points <= 6) return '/personality1';
-  if (points <= 10) return '/personality2';
-  if (points <= 14) return '/personality3';
+  if (points <= 8) return '/personality1';
+  if (points <= 13) return '/personality2';
+  if (points <= 17) return '/personality3';
   return '/personality4';
 }
 
@@ -155,7 +155,7 @@ app.frame('/personality1', (c) => {
   return c.res({
     image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmeK7kjGoJJnAtCpwGNwX8dfsQNQ9hyDdo783B9r6XFAtT'),
     intents: [
-      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-2'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-2'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,    
     ],
   });
@@ -166,7 +166,7 @@ app.frame('/personality2', (c) => {
   return c.res({
     image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbaKd6ERmgh4hQjWRKGoA81WVTGQXowBECLhAXWdSqTBu'),
     intents: [
-      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-3'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-3'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
@@ -176,7 +176,7 @@ app.frame('/personality3', (c) => {
   return c.res({
     image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPMjEMYKvPts34FVW7u3spA7m6qfeVP5BbdByLVSLR1c6'),
     intents: [
-      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-1'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-1'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
@@ -186,7 +186,7 @@ app.frame('/personality4', (c) => {
   return c.res({
     image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU7mQUt8FSFRNXWSfgW6nGNQQwiuEjd6MCDBAXz9vbbbQ'),
     intents: [
-      <Button.Link href='https://zora.co/collect/base:0x3329c282ebf00d01bf735d2477161014269fd5e6/premint-4'>Mint</Button.Link>,
+      <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-4'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
     ],
   });
