@@ -1,6 +1,6 @@
 /** @jsxImportSource frog/jsx */
 
-import { Button, Frog, TextInput } from 'frog'
+import { Button, Frog} from 'frog'
 import { devtools } from 'frog/dev'
 // import { neynar } from 'frog/hubs'
 import { handle } from 'frog/next'
@@ -18,53 +18,208 @@ const app = new Frog({
 
 app.frame('/', (c) => {
   const { buttonValue, inputText, status } = c
-  const fruit = inputText || buttonValue
+  // const quiz = inputText || buttonValue
   return c.res({
+    action:'/first',
     image: (
       <div
         style={{
-          alignItems: 'center',
-          background:
-            status === 'response'
-              ? 'linear-gradient(to right, #432889, #17101F)'
-              : 'black',
-          backgroundSize: '100% 100%',
-          display: 'flex',
-          flexDirection: 'column',
-          flexWrap: 'nowrap',
-          height: '100%',
-          justifyContent: 'center',
-          textAlign: 'center',
-          width: '100%',
+          display: 'flex', // Ensuring proper handling of child components
+          flexDirection: 'column', // Organizes children vertically
+          color: 'white',
+          fontSize: 60,
+          fontStyle: 'normal',
+          letterSpacing: '-0.025em',
+          lineHeight: 1.4,
+          marginTop: 30,
+          padding: '0 120px',
+          whiteSpace: 'pre-wrap',
         }}
       >
-        <div
-          style={{
-            color: 'white',
-            fontSize: 60,
-            fontStyle: 'normal',
-            letterSpacing: '-0.025em',
-            lineHeight: 1.4,
-            marginTop: 30,
-            padding: '0 120px',
-            whiteSpace: 'pre-wrap',
-          }}
-        >
-          {status === 'response'
-            ? `Nice choice.${fruit ? ` ${fruit.toUpperCase()}!!` : ''}`
-            : 'Welcome!'}
-        </div>
+
+        hello
+        
       </div>
     ),
     intents: [
-      <TextInput placeholder="Enter custom fruit..." />,
-      <Button value="apples">Apples</Button>,
-      <Button value="oranges">Oranges</Button>,
-      <Button value="bananas">Bananas</Button>,
-      status === 'response' && <Button.Reset>Reset</Button.Reset>,
+      <Button >Start Now!</Button>,
+    
     ],
-  })
-})
+  });
+});
+
+app.frame('/first', (c) => {
+  const { buttonValue, inputText, status } = c
+  const quiz = inputText || buttonValue
+  return c.res({
+    action:'/second',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      hello
+        
+      </div>
+    ),
+    intents: [
+      <Button >Act Steady</Button>,
+      <Button >Mug like siao</Button>,
+      <Button >Burn Midnight Oil</Button>,
+      <Button >Chill </Button>,
+    
+    ],
+  });
+});
+
+app.frame('/second', (c) => {
+  const { buttonValue, inputText, status } = c
+  const quiz = inputText || buttonValue
+  return c.res({
+    action:'/third',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      hello
+        
+      </div>
+    ),
+    intents: [
+      <Button >Take picture</Button>,
+      <Button >Queue before get longer</Button>,
+      <Button >Why so many people</Button>,
+      <Button >Go next time</Button>,
+    
+    ],
+  });
+});
+
+
+app.frame('/third', (c) => {
+  const { buttonValue, inputText, status } = c
+  const quiz = inputText || buttonValue
+  return c.res({
+    action:'/fourth',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      hello
+        
+      </div>
+    ),
+    intents: [
+      <Button >Finish it for good luck</Button>,
+      <Button >Faster finish it</Button>,
+      <Button >Burn Midnight Oil</Button>,
+      <Button >Chill </Button>,
+    
+    ],
+  });
+});
+
+
+app.frame('/fourth', (c) => {
+  const { buttonValue, inputText, status } = c
+  const quiz = inputText || buttonValue
+  return c.res({
+    action:'/fifth',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      hello
+        
+      </div>
+    ),
+    intents: [
+      <Button >Good</Button>,
+    
+    ],
+  });
+});
+
+
+app.frame('/fifth', (c) => {
+  const { buttonValue, inputText, status } = c
+  const quiz = inputText || buttonValue
+  return c.res({
+    action:'',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      hello
+        
+      </div>
+    ),
+    intents: [
+      <Button >Good</Button>,
+    
+    ],
+  });
+});
+
 
 devtools(app, { serveStatic })
 
