@@ -25,7 +25,26 @@ app.frame('/', (c) => {
   // const quiz = inputText || buttonValue
   return c.res({
     action:'/first',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU5HmEGDNP7J4QK7K7fUfJwZccRCwsdZkCjVfNb36H9NN',
+    image: (
+      <div
+        style={{
+          display: 'flex', // Ensuring proper handling of child components
+          flexDirection: 'column', // Organizes children vertically
+          color: 'white',
+          fontSize: 60,
+          fontStyle: 'normal',
+          letterSpacing: '-0.025em',
+          lineHeight: 1.4,
+          marginTop: 30,
+          padding: '0 120px',
+          whiteSpace: 'pre-wrap',
+        }}
+      >
+
+        hello
+        
+      </div>
+    ),
     intents: [
       <Button >Start Now!</Button>,
     
@@ -83,7 +102,26 @@ app.frame('/first', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/second',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmNvJcKRqVM5sn6gTS2N89j5gNDhhAh4zGswvrdD8nQRYL',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      first
+        
+      </div>
+    ),
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -104,7 +142,26 @@ app.frame('/second', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/third',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbCi8z813rU2huvqr1bqcZy78JKFGqMcx7AEnqAYzi3fn',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      2nd
+        
+      </div>
+    ),
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -127,7 +184,26 @@ app.frame('/third', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fourth',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYWwCUgVebbBcHWq2j8FpZUv8ymBkpkxTP8G5wLTiMdWT',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      3rd
+        
+      </div>
+    ),
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -150,7 +226,26 @@ app.frame('/fourth', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fifth',
-    image:'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/Qma2NDsrCurRrC7PqEw9xzdeCBRfxUgsY7ZZujKWhyXH5W',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      fourth
+        
+      </div>
+    ),
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -173,7 +268,26 @@ app.frame('/fifth', (c) => {
   const nextAction = determinePersonality(state.points);
   return c.res({
     action: nextAction,
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPFnJrn3UonPC96w15tmxmLBXALdb418ggBwrnaD1VftC',
+    image: (
+      <div
+      style={{
+        display: 'flex', // Ensuring proper handling of child components
+        flexDirection: 'column', // Organizes children vertically
+        color: 'white',
+        fontSize: 60,
+        fontStyle: 'normal',
+        letterSpacing: '-0.025em',
+        lineHeight: 1.4,
+        marginTop: 30,
+        padding: '0 120px',
+        whiteSpace: 'pre-wrap',
+      }}
+    >
+
+      fifth
+        
+      </div>
+    ),
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
