@@ -25,26 +25,7 @@ app.frame('/', (c) => {
   // const quiz = inputText || buttonValue
   return c.res({
     action:'/first',
-    image: (
-      <div
-        style={{
-          display: 'flex', // Ensuring proper handling of child components
-          flexDirection: 'column', // Organizes children vertically
-          color: 'white',
-          fontSize: 60,
-          fontStyle: 'normal',
-          letterSpacing: '-0.025em',
-          lineHeight: 1.4,
-          marginTop: 30,
-          padding: '0 120px',
-          whiteSpace: 'pre-wrap',
-        }}
-      >
-
-        hello
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU5HmEGDNP7J4QK7K7fUfJwZccRCwsdZkCjVfNb36H9NN',
     intents: [
       <Button >Start Now!</Button>,
     
@@ -101,26 +82,7 @@ app.frame('/first', (c) => {
   });
   return c.res({
     action:'/second',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      first
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmNvJcKRqVM5sn6gTS2N89j5gNDhhAh4zGswvrdD8nQRYL',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -140,26 +102,7 @@ app.frame('/second', (c) => {
   });
   return c.res({
     action:'/third',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      2nd
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbCi8z813rU2huvqr1bqcZy78JKFGqMcx7AEnqAYzi3fn',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -181,26 +124,7 @@ app.frame('/third', (c) => {
   });
   return c.res({
     action:'/fourth',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      3rd
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYWwCUgVebbBcHWq2j8FpZUv8ymBkpkxTP8G5wLTiMdWT',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -222,26 +146,7 @@ app.frame('/fourth', (c) => {
   });
   return c.res({
     action:'/fifth',
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      fourth
-        
-      </div>
-    ),
+    image:'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/Qma2NDsrCurRrC7PqEw9xzdeCBRfxUgsY7ZZujKWhyXH5W',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -262,26 +167,7 @@ app.frame('/fifth', (c) => {
   });
   const nextAction = determinePersonality(state.points);
   return c.res({
-    image: (
-      <div
-      style={{
-        display: 'flex', // Ensuring proper handling of child components
-        flexDirection: 'column', // Organizes children vertically
-        color: 'white',
-        fontSize: 60,
-        fontStyle: 'normal',
-        letterSpacing: '-0.025em',
-        lineHeight: 1.4,
-        marginTop: 30,
-        padding: '0 120px',
-        whiteSpace: 'pre-wrap',
-      }}
-    >
-
-      fifth
-        
-      </div>
-    ),
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPFnJrn3UonPC96w15tmxmLBXALdb418ggBwrnaD1VftC',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
