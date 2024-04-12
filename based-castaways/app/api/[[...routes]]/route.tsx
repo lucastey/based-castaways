@@ -99,6 +99,7 @@ app.frame('/first', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/second',
     image: (
@@ -138,6 +139,7 @@ app.frame('/second', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/third',
     image: (
@@ -179,6 +181,7 @@ app.frame('/third', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/fourth',
     image: (
@@ -220,6 +223,7 @@ app.frame('/fourth', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   return c.res({
     action:'/fifth',
     image: (
@@ -260,8 +264,10 @@ app.frame('/fifth', (c) => {
     if (buttonValue === '3') previousState.points += 3;
     if (buttonValue === '4') previousState.points += 4;
   });
+  console.log("Current Points:", state.points);
   const nextAction = determinePersonality(state.points);
   return c.res({
+    action: nextAction,
     image: (
       <div
       style={{
