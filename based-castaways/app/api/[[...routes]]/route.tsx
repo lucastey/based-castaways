@@ -174,7 +174,7 @@ app.frame('/personality2', (c) => {
 
 app.frame('/personality3', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmRH2GkZTtBdrt4zenQKYfnKWHqqLRdzLuaHy6sWHehfKR'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmaaDNVQf8ngZRgzt3vLy93TnygDT2swkBX46L4ZvbWEao'),
     intents: [
       <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-1'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
