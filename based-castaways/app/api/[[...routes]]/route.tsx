@@ -44,7 +44,7 @@ app.frame('/first', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/second',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmWm4GCKv1t4aQhjV9U4mYxL9uXiMP6o14JWXxRNGpw5x1',
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmNZjjvifEA7sJGEEbK5JVqt2kfomusSDR7xJKJGiKhcBW',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -65,7 +65,7 @@ app.frame('/second', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/third',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmUmFzt1nXVrNyEXWJNCZeMrxAQyg8CqBm3TNufNVbVG1S',
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmVtPkeUQLQ1P145qU3m6PaqxtPq3PmSSwxKFBHBXLRL4q',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -88,7 +88,7 @@ app.frame('/third', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fourth',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbpGCvG1q9Hdj3wahNSqSN55At9C59rmeMSahm5bkWNj2',
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmWQivN2fZg2zpNqoJ8mZMx3Fcbbbo2vEHs8xMvSoFAZ7r',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -111,7 +111,7 @@ app.frame('/fourth', (c) => {
   console.log("Current Points:", state.points);
   return c.res({
     action:'/fifth',
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmZzLd59XiZEydxikLUENkpZ7UcjRzzJL1d7xMTwfj9DW1',
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmYKCtLmGMGPwMLsCiZjt8P2A8dKfLVjADxCcfhGV2vEGS',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -134,7 +134,7 @@ app.frame('/fifth', (c) => {
   const nextAction = determinePersonality(state.points);
   return c.res({
     action: nextAction,
-    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmcacreJEUaoJ6BYxoN9iU1zVNFb2KaCcKQV9Gr3VK8QFr',
+    image: 'https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmNhYvL8v3S8YYUnUMWXDe9KMjuuDujw8yJ8YcGqTng7YE',
     intents: [
       <Button value="1">1</Button>,
       <Button value="2">2</Button>,
@@ -164,7 +164,7 @@ app.frame('/personality1', (c) => {
 
 app.frame('/personality2', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmbaKd6ERmgh4hQjWRKGoA81WVTGQXowBECLhAXWdSqTBu'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmWAoqhjgwH6s49uWy8zzGVSpKCQCWbtz1HSbL76fEPwTQ'),
     intents: [
       <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-3'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
@@ -174,7 +174,7 @@ app.frame('/personality2', (c) => {
 
 app.frame('/personality3', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmPMjEMYKvPts34FVW7u3spA7m6qfeVP5BbdByLVSLR1c6'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmRH2GkZTtBdrt4zenQKYfnKWHqqLRdzLuaHy6sWHehfKR'),
     intents: [
       <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-1'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
@@ -184,7 +184,7 @@ app.frame('/personality3', (c) => {
 
 app.frame('/personality4', (c) => {
   return c.res({
-    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmU7mQUt8FSFRNXWSfgW6nGNQQwiuEjd6MCDBAXz9vbbbQ'),
+    image: ('https://coral-grieving-porpoise-728.mypinata.cloud/ipfs/QmVe4jmge9QbYoNH373UnAjfRodTjwh8G94M7mKRkKC6Uz'),
     intents: [
       <Button.Link href='https://zora.co/collect/base:0xe352a11653abacc71740aadb7d17d3227e0a7d3b/premint-4'>Mint</Button.Link>,
       <Button.Reset>Retry</Button.Reset>,
